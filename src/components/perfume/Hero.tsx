@@ -1,0 +1,6 @@
+import { Button } from '@/components/ui/button';
+import photo from '@/assets/beauty-cafe.png';
+import styles from './Landing.module.css';
+export default function Hero() {
+  return <><section className={styles.hero} id="top"><img className={styles.heroImage} src={photo} alt="Флакон парфюмерной воды Faberlic Beauty Cafe среди розовых цветов" /><div className={styles.veil} /><div className={styles.heroContent}><div className={styles.eyebrow}>Faberlic · Eau de parfum · 30 мл</div><h1 className={styles.title}>Beauty<br /><em>Café</em></h1><p className={styles.subtitle}>Маленький ритуал нежности.</p><p className={styles.copy}>Цветочно-пудровый аромат для неспешных встреч, тёплых разговоров и моментов, которые хочется сохранить.</p><Button asChild className={styles.cta}><a href="https://ozon.ru/t/EIPCrwi" target="_blank" rel="noopener noreferrer">Купить на Ozon</a></Button><div className={styles.meta}><span>Для женщин</span><span>—</span><span>Парфюмерная вода, 30 мл</span></div></div></section><div className={styles.strip}><span>Цветочно-пудровый</span><span>30 мл любимого аромата</span><span>Создан Аленом Алионом</span></div></>;
+}

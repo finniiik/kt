@@ -1,0 +1,2 @@
+import styles from './Landing.module.css';
+export default function Footer() { return <footer className={styles.footer}><span>© 2026 Beauty Café · Учебный проект</span><a href="https://fabirlic.ru/parfyumernaya_voda_dlya_zhenshchin_beauty_cafe_30_ml_faberlic_3022" target="_blank" rel="noopener noreferrer">Фото и описание: каталог Faberlic</a><span>Не является официальным сайтом бренда</span></footer>; }
